@@ -5,20 +5,19 @@ var sayHi=function()
     console.log("node",node);
     node.innerText="Your name is Brunnhilde";
                 
-     document.querySelector("body")
-        .appendChild(node);
-    node.setAttribute("onclick", "name()");
 }
 
 {
-    function changeImage() {
+    function changeImage() 
+{
             var image = document.getElementById('myImage');
-            if (image.src.match("https://user-images.githubusercontent.com/54848877/65207863-30632e80-da61-11e9-84f3-68559dd98590")){ 
+            if (image.src.match("https://user-images.githubusercontent.com/54848877/65207863-30632e80-da61-11e9-84f3-68559dd98590"))
+{ 
                 image.src = "https://raw.githubusercontent.com/jcpask/adventure/master/attacking-dragon.png";
             }
             else {
                 image.src = "https://user-images.githubusercontent.com/54848877/65207863-30632e80-da61-11e9-84f3-68559dd98590.jpg";
             }
         }
-
+}
 
