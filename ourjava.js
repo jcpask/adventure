@@ -8,6 +8,10 @@ var sayHi=function()
     document.querySelector("body")
         .appendChild(node);
     node.setAttribute("onclick", "name()");
+    
+    var x=document.createElement("button");
+    console.log("node1",node1);
+    node1.innerText="Your Challenge!";
 
 }
 var name=function()
