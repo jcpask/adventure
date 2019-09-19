@@ -15,6 +15,10 @@ var name=function()
     var node=document.createElement("button");
     console.log("node",node);
     node.innerText="Your Challenge!";
- }
+    
+ document.querySelector("body")
+        .appendChild(node);
+    node.setAttribute("onclick", "name()"); 
+}
 
 
