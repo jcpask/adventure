@@ -14,7 +14,7 @@ var saybye=function()
 {
     var node=document.createElement("a");
     console.log("node",node);
-  node.setAttribute("href","https://github.com/jcpask/adventure/blob/master/41208645_10155996761217569_829956108729712640_n.jpg");
+  node.setAttribute("href","https://raw.githubusercontent.com/jcpask/adventure/master/41208645_10155996761217569_829956108729712640_n.jpg");
     
                 
      document.querySelector("body")
