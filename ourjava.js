@@ -12,14 +12,14 @@ var sayHi=function()
 
 var saybye=function()
 {
-    var node=document.createElement("a");
-    console.log("node",node);
-  node.setAttribute("href","https://raw.githubusercontent.com/jcpask/adventure/master/41208645_10155996761217569_829956108729712640_n.jpg");
-    
-                
-     document.querySelector("body")
-        .appendChild(node);
-    node.setAttribute("onclick", "name()");
-}
+    function changeImage() {
+            var image = document.getElementById('myImage');
+            if (image.src.match("https://raw.githubusercontent.com/jcpask/adventure/master/attacking-dragon.png")) {
+                image.src = "https://raw.githubusercontent.com/jcpask/adventure/master/41208645_10155996761217569_829956108729712640_n.jpg";
+            }
+            else {
+                image.src = "https://raw.githubusercontent.com/jcpask/adventure/master/attacking-dragon.png";
+            }
+        }
 
 
