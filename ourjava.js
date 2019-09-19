@@ -13,11 +13,11 @@ var sayHi=function()
 var name=function()
 {
     var node=document.createElement("button");
-    console.log("node",node);
+    console.log("node1",node1);
     node.innerText="Your Challenge!";
     
  document.querySelector("body")
-        .appendChild(node);
+        .appendChild(node1);
     node.setAttribute("onclick", "name()"); 
 }
 
