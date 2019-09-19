@@ -13,6 +13,7 @@ var sayHi=function()
 var saybye=function()
 {
     var node=document.createElement("a");
+    console.log("node",node);
   node.setAttribute("href","https://github.com/jcpask/adventure/blob/master/41208645_10155996761217569_829956108729712640_n.jpg");
     
                 
