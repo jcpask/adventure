@@ -14,8 +14,8 @@ var saybye=function()
 {
     function changeImage() {
             var image = document.getElementById('myImage');
-            if (image.src.match("https://raw.githubusercontent.com/jcpask/adventure/master/attacking-dragon.png")) {
-                image.src = "https://raw.githubusercontent.com/jcpask/adventure/master/41208645_10155996761217569_829956108729712640_n.jpg";
+            if (image.src.match("https://user-images.githubusercontent.com/54848877/65207863-30632e80-da61-11e9-84f3-68559dd98590.jpg")) {
+                image.src = "https://user-images.githubusercontent.com/54848877/65207863-30632e80-da61-11e9-84f3-68559dd98590.jpg;
             }
             else {
                 image.src = "https://raw.githubusercontent.com/jcpask/adventure/master/attacking-dragon.png";
