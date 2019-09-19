@@ -1,12 +1,4 @@
-var notes=function()
-{
-    var node=document.createElement("notes.html");
-    console.log("node",node);
-            
-    document.querySelector("head")
-        .appendChild(node);
-    node.setAttribute("href", "notes.html");
-}
+
 var sayHi=function()
 {
     var node=document.createElement("h2");
