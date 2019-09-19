@@ -5,7 +5,7 @@ var notes=function()
             
     document.querySelector("head")
         .appendChild(node);
-    node.setAttribute("onclick", "name()");
+    node.setAttribute("href", "notes.html");
 }
 var sayHi=function()
 {
