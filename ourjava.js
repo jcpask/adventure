@@ -13,15 +13,16 @@ var sayHi=function()
 var name=function()
 {
     var node=document.createElement("button");
-    console.log("node1",node1);
+    console.log("node",node);
     node.innerText="Your Challenge!";
     
  document.querySelector("body")
-        .appendChild(node1);
-    node.setAttribute("onclick", "name()"); 
+        .appendChild(node);
+    node.setAttribute("onclick", "img()"); 
 }
-
-var img = document.createElement("img");
+var img=function()
+{
+var node = document.createElement("img");
 img.src = "https://github.com/jcpask/adventure/blob/master/41208645_10155996761217569_829956108729712640_n.jpg";
 
 var src = document.getElementById("body");
