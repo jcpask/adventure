@@ -1,4 +1,12 @@
-
+var notes=function()
+{
+    var node=document.createElement("notes.html");
+    console.log("node",node);
+            
+    document.querySelector("head")
+        .appendChild(node);
+    node.setAttribute("onclick", "name()");
+}
 var sayHi=function()
 {
     var node=document.createElement("h2");
